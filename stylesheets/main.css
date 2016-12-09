@@ -1,0 +1,24 @@
+/*styling from top to bottom*/
+
+.top-banner {
+  /*background-color: black;*/
+  /*color: white;*/
+
+}
+
+.about-me {
+  background-color: lightgrey;
+}
+
+.skills{
+  background-color: beige;
+}
+
+.my-skills{
+  list-style: none;
+  display: inline;
+}
+
+.computer-languages{
+  display: inline;
+}
