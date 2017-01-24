@@ -1,17 +1,28 @@
 /*styling from top to bottom*/
+body {
+  background: url(file:///Users/edwardyu/Desktop/IMG_6254.JPG) center fixed no-repeat;
+  background-size: cover;
+  color: white; /* temporary
+  /*background-position: top;*/
+}
 
-.top-banner {
-  /*background-color: black;*/
-  /*color: white;*/
+.name-banner {
+top: 25%;
+padding-top: 15px;
+padding-bottom: 15px;
+  border: solid 2px white;
+  width: 100%;
+  color: white;
+  text-align: center;
 
 }
 
 .about-me {
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
 }
 
 .skills{
-  background-color: beige;
+  /*background-color: beige;*/
 }
 
 .my-skills{
