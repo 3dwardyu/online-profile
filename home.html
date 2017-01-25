@@ -11,8 +11,8 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="cover">
+    <div class="container tab-content">
+      <div role="tabpanel" class="cover tab-pane active" id="home">
         <div class="name-banner">
           <h1 class="name">Edward Yu</h1>
           <h3 class="position">Full Stack Web Developer | Photographer | Content Creator</h3>
@@ -28,7 +28,7 @@
       </div>
 
 
-      <div class="about-me-section">
+      <div role="tabpanel" class="about-me-section tab-pane" id="about">
         <h3>About Me</h3>
         <p>A little about myself</p>
         <div class="about-me">
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="skills">
+      <div role="tabpanel" class="tab-pane" id="skills">
         <h2>Skills</h2>
         <ul class="my-skills">
           <li class="computer-languages">Rails</li>
@@ -53,7 +53,7 @@
         </ul>
       </div>
 
-      <div class="experience">
+      <div role="tabpanel" class="tab-pane" id="experiences">
         <h2 class="experience-title">Experience</h2>
         <div class="job-1">
           <h3>English Teacher</h3>
@@ -82,7 +82,7 @@
         </div>
       </div>
 
-      <div class="section projects">
+      <div role="tabpanel" class="tab-pane" id="projects">
         <div class="packapp">
           <h2>PackApp</h2>
           <h3>Status: Paused</h3>
@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <div class="section education">
+      <div role="tabpanel" class="tab-pane" id="education">
         <h2>Education</h2>
         <div class="bitmaker">
           <h3>Bitmaker</h3>
@@ -124,20 +124,21 @@
             communities and the government.  My minor in economics stemmed from
             my initial interest in business and management. It has prepared me
             with an objective view of businesses and how they operate.</p>
-            <nav class="navbar navbar-inverse navbar-fixed-bottom">
-              <div class="container">
-                <ul class="nav navbar-nav centered">
-                  <li class="home active"><a href="#">Home</a></li>
-                  <li class="about"><a href="#">About</a></li>
-                  <li class="skills"><a href="#">Skills</a></li>
-                  <li class="experience"><a href="#">Experience</a></li>
-                  <li class="education"><a href="#">Education</a></li>
-                  <li class="portfolio"><a href="#">Portfolio</a></li>
-                  <li class="contact"><a href="#">Contact</a></li>
-                </ul>
-              </div>
-            </nav>
+
       </div>
     </div>
+    <nav class="navbar nav-tabs navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <ul class="nav navbar-nav centered" role="tablist">
+          <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="pill">Home</a></li>
+          <li role="presentation"><a href="#about" role="tab" data-toggle="pill">About</a></li>
+          <li role="presentation"><a href="#skills" role="tab" data-toggle="pill">Skills</a></li>
+          <li role="presentation"><a href="#experiences" role="tab" data-toggle="pill">Experience</a></li>
+          <li role="presentation"><a href="#education" role="tab" data-toggle="pill">Education</a></li>
+          <li role="presentation"><a href="#portfolio" role="tab" data-toggle="pill">Portfolio</a></li>
+          <li role="presentation"><a href="#contact" role="tab" data-toggle="pill">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>
