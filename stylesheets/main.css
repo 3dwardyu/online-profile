@@ -29,8 +29,18 @@ padding-bottom: 15px;
 
 }
 
+.about-me-section{
+  overflow: hidden;
+}
 .about-me {
-  /*background-color: lightgrey;*/
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+.profile-picture img {
+  max-height: 300px;
+  float:right;
 }
 
 .skills{
