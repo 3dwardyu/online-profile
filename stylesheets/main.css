@@ -61,6 +61,27 @@ padding-bottom: 15px;
   height: 150px;
 }
 
+.date-container {
+  float: left;
+  border: solid 1px blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  text-align: center;
+}
+
+.date {
+padding-top: 50px;
+}
+
+.description {
+  float:right;
+}
+
+.social-logos {
+  height: 40px;
+
+}
 
 /*COVER CSS*/
 /*
