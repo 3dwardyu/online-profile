@@ -23,7 +23,8 @@ body {
 .affix {
   position: fixed;
   top:0px;
-  width: 100%;
+  width: 100vw;
+  z-index: 1;
 }
 
 /*
@@ -100,14 +101,14 @@ padding-bottom: 15px;
   height: 150px;
 }
 
-.date-container {
+/*.date-container {
   float: left;
   border: solid 1px blue;
   width: 150px;
   height: 150px;
   border-radius: 150px;
   text-align: center;
-}
+}*/
 
 .date {
 padding-top: 50px;
