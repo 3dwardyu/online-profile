@@ -3,20 +3,18 @@ body {
   background: url(file:///Users/edwardyu/Desktop/IMG_6254.JPG) center fixed no-repeat;
   background-size: cover;
   color: white;/* temporary */
-
 }
 
 .navbar .nav li {
   width: 150px;
   /*display: inline-block;*/
   /*float: none;*/
-
 }
 
 .navbar {
   /*position: relative;*/
   margin-bottom: 0;
-/*text-align: center;*/
+  /*text-align: center;*/
   /*left: 0;*/
 }
 
@@ -27,51 +25,40 @@ body {
   z-index: 1;
 }
 
-/*
-.navbar .nav{
-  float: none;
-  text-align: center;
-  margin-bottom: 0px;
-}*/
-
-
 .fullpage {
   height: 100vh;
-  /*position: relative;*/
 }
 
 .center-vertical {
-  /*position: absolute;*/
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
+
 .nav-container{
   position: absolute;
   bottom:0;
   width: 100%;
   left: 0;
-
 }
 
 .name-banner {
-
-padding-top: 15px;
-padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border: solid 2px white;
   width: 100% !important;
   color: white;
   text-align: center;
   position: relative;
- top: 50%;
- transform: translateY(-50%);
-
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
 .about-me-section{
   overflow: hidden;
 }
+
 .about-me {
   text-align: left;
   float: left;
@@ -83,39 +70,18 @@ padding-bottom: 15px;
   float:right;
 }
 
-.skills{
-  /*background-color: beige;*/
+#skills, #education, #contact{
+  background-color: beige; /*temporary*/
 }
 
-.my-skills{
-  list-style: none;
-  display: inline;
-}
+
 
 .computer-languages{
   display: inline;
 }
 
-.skill-logos
-{
+.skill-logos{
   height: 150px;
-}
-
-/*.date-container {
-  float: left;
-  border: solid 1px blue;
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-  text-align: center;
-}*/
-
-.date {
-padding-top: 50px;
-}
-
-.description {
-  float:right;
 }
 
 .social-logos {
