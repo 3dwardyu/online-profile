@@ -23,7 +23,7 @@ body {
 .affix {
   position: fixed;
   top:0px;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 }
 
@@ -49,7 +49,7 @@ body {
 .nav-container{
   position: absolute;
   bottom:0;
-  width: 100vw;
+  width: 100%;
   left: 0;
 
 }
