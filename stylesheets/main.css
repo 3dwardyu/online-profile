@@ -7,10 +7,14 @@ body {
 
 .navbar .nav li {
   width: 150px;
-  /*display: inline-block;*/
+  display: inline;
   /*float: none;*/
 }
 
+.navbar .nav ul {
+  display: inline-block;
+  text-align: center;
+}
 .navbar {
   /*position: relative;*/
   margin-bottom: 0;
@@ -41,7 +45,9 @@ body {
   width: 100%;
   left: 0;
 }
-
+.nav {
+text-align: center;
+}
 .name-banner {
   padding-top: 15px;
   padding-bottom: 15px;
