@@ -2,7 +2,6 @@
 body {
   background: url(file:///Users/edwardyu/Desktop/IMG_6254.JPG) center fixed no-repeat;
   background-size: cover;
-  color: white;/* temporary */
 }
 
 .navbar .nav li {
@@ -52,7 +51,7 @@ text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
   border: solid 2px white;
-  width: 100% !important;
+  /*width: 100% !important;*/
   color: white;
   text-align: center;
   position: relative;
@@ -60,6 +59,9 @@ text-align: center;
   transform: translateY(-50%);
 }
 
+.description{
+  display: none;
+}
 
 .about-me-section{
   overflow: hidden;
@@ -258,4 +260,27 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+/* CSS for typed.js blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
