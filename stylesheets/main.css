@@ -9,7 +9,7 @@ body {
 }*/
 
 .navbar .nav li {
-  width: 150px;
+  width: 14.28%;
   display: inline;
   /*float: none;*/
 }
@@ -17,12 +17,16 @@ body {
 .navbar .nav ul {
   display: inline-block;
   text-align: center;
+  /*float: none;*/
 }
 .navbar {
   /*position: relative;*/
   margin-bottom: 0;
   /*text-align: center;*/
   /*left: 0;*/
+}
+.navbar-nav {
+  float: none;
 }
 
 .affix {
@@ -114,6 +118,9 @@ text-align: center;
   margin-bottom: 5em;
 }
 
+.cd-date{
+  font-size: 1.5em !important;
+}
 /*COVER CSS*/
 /*
  * Globals
