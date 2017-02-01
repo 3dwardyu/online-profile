@@ -4,6 +4,10 @@ body {
   background-size: cover;
 }
 
+/*p {
+  font-size: 14px;
+}*/
+
 .navbar .nav li {
   width: 150px;
   display: inline;
@@ -48,6 +52,7 @@ body {
 text-align: center;
 }
 .name-banner {
+  margin: 0 25%;
   padding-top: 15px;
   padding-bottom: 15px;
   border: solid 2px white;
@@ -95,6 +100,15 @@ text-align: center;
 .social-logos {
   height: 40px;
 
+}
+
+.cd-timeline-content > h5, .cd-timeline-content p  {
+  color: black;
+}
+
+.section-heading {
+  margin-top: 10em;
+  margin-bottom: 5em;
 }
 
 /*COVER CSS*/
