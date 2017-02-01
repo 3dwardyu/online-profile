@@ -51,6 +51,7 @@ body {
 .nav {
 text-align: center;
 }
+
 .name-banner {
   margin: 0 25%;
   padding-top: 15px;
@@ -87,8 +88,6 @@ text-align: center;
   background-color: beige; /*temporary*/
 }
 
-
-
 .computer-languages{
   display: inline;
 }
@@ -102,8 +101,12 @@ text-align: center;
 
 }
 
-.cd-timeline-content > h5, .cd-timeline-content p  {
+.cd-timeline-content {
   color: black;
+}
+
+.cd-timeline-content p {
+  font-size: 1.25em;
 }
 
 .section-heading {
@@ -146,7 +149,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
