@@ -142,17 +142,17 @@ header h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px white;
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 4rem;
+  height: 4rem;
   position: relative;
   left: 50%;
   top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  margin-left: -2rem;
+  margin-top: -2rem;
 }
 .cd-timeline-img.cd-picture {
   background: #75ce66;
@@ -258,8 +258,8 @@ header h1 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  /*font-size: 13px;*/
+  font-size: 1.2rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -279,8 +279,8 @@ header h1 {
   background-color: #bac4cb;
 }
 .cd-timeline-content .cd-date {
-  float: left;
-  padding: .8em 0;
+  /*float: left;*/
+  /*padding: .8em 0;*/
   opacity: .7;
 }
 .cd-timeline-content::before {
@@ -303,7 +303,7 @@ header h1 {
     font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-size: 0.875rem;
   }
 }
@@ -327,8 +327,9 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    /*font-size: 16px;*/
+    font-size: 3rem;
+    color: white;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -346,7 +347,7 @@ header h1 {
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     left: auto;
     right: 122%;
-    text-align: right;
+    /*text-align: right;*/
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
