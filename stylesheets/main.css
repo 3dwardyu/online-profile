@@ -4,10 +4,14 @@ body {
   background-size: cover;
 }
 
-/*p {
-  font-size: 14px;
-}*/
+.about-me p {
+  font-size: 1.75rem;
+  text-align: justify;
+}
 
+.about-me-container{
+  margin: 0 3rem;
+}
 .navbar .nav li {
   width: 14.28%;
   display: inline;
@@ -73,19 +77,28 @@ text-align: center;
   display: none;
 }
 
-.about-me-section{
-  overflow: hidden;
+.footer {
+  margin: 2rem 0;
 }
 
+.social-media a {
+  margin: 0 1.5rem;
+  padding: 0 1.5rem;
+}
+
+/*.about-me-section{
+  overflow: hidden;
+}*/
+/*
 .about-me {
   text-align: left;
   float: left;
   width: 50%;
-}
+}*/
 
 .profile-picture img {
   max-height: 300px;
-  float:right;
+  /*float:right;*/
 }
 
 
@@ -119,10 +132,31 @@ text-align: center;
 .bg-white {
   background-color: white;
 }
-/*.cd-date{
-  font-size: 3em !important;
-  color: white;
-}*/
+
+#portfolio {
+  background-color: lightgrey;
+}
+.projects-heading {
+  margin-top: 10em;
+  margin-bottom: 2em;
+  position: relative;
+}
+#portfolio p {
+  font-size: 1.5rem;
+}
+
+.complete {
+  color: green;
+}
+
+.paused {
+  color: yellow;
+}
+
+.in-development {
+  color: red;
+}
+
 /*COVER CSS*/
 /*
  * Globals
