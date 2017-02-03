@@ -258,7 +258,6 @@ header h1 {
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  /*font-size: 13px;*/
   font-size: 1.2rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -279,8 +278,6 @@ header h1 {
   background-color: #bac4cb;
 }
 .cd-timeline-content .cd-date {
-  /*float: left;*/
-  /*padding: .8em 0;*/
   opacity: .7;
 }
 .cd-timeline-content::before {
@@ -299,11 +296,9 @@ header h1 {
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    /*font-size: 16px;*/
     font-size: 1.2rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    /*font-size: 14px;*/
     font-size: 1.2rem;
   }
 }
@@ -327,7 +322,6 @@ header h1 {
     width: 100%;
     left: 122%;
     top: 6px;
-    /*font-size: 16px;*/
     font-size: 2.5em;
     color: white;
   }
@@ -347,7 +341,6 @@ header h1 {
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     left: auto;
     right: 122%;
-    /*text-align: right;*/
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;

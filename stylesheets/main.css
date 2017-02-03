@@ -1,36 +1,27 @@
-/*styling from top to bottom*/
 body {
   background: url(file:///Users/edwardyu/Desktop/IMG_6254.JPG) center fixed no-repeat;
   background-size: cover;
 }
 
-.about-me p {
-  font-size: 1.75rem;
-  text-align: justify;
+/* NAVBAR */
+.nav-container{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  left: 0;
 }
 
-.about-me-container{
-  margin: 0 3rem;
+.navbar {
+  margin-bottom: 0;
 }
+
+.navbar-nav {
+  float: none;
+}
+
 .navbar .nav li {
   width: 14.28%;
   display: inline;
-  /*float: none;*/
-}
-
-.navbar .nav ul {
-  display: inline-block;
-  text-align: center;
-  /*float: none;*/
-}
-.navbar {
-  /*position: relative;*/
-  margin-bottom: 0;
-  /*text-align: center;*/
-  /*left: 0;*/
-}
-.navbar-nav {
-  float: none;
 }
 
 .affix {
@@ -40,69 +31,30 @@ body {
   z-index: 1;
 }
 
-.fullpage {
-  height: 100vh;
-}
-
-.center-vertical {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.nav-container{
-  position: absolute;
-  bottom:0;
-  width: 100%;
-  left: 0;
-}
-.nav {
-text-align: center;
-}
-
+/* HOME SECTION */
 .name-banner {
-  margin: 0 25%;
+  margin: 0 2rem;
   padding-top: 15px;
   padding-bottom: 15px;
   border: solid 2px white;
-  /*width: 100% !important;*/
   color: white;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-.description{
+.name-descriptions{
   display: none;
 }
 
-.footer {
-  margin: 2rem 0;
+/* ABOUT ME SECTION*/
+.about-me p {
+  font-size: 1.75rem;
+  text-align: justify;
 }
-
-.social-media a {
-  margin: 0 1.5rem;
-  padding: 0 1.5rem;
-}
-
-/*.about-me-section{
-  overflow: hidden;
-}*/
-/*
-.about-me {
-  text-align: left;
-  float: left;
-  width: 50%;
-}*/
 
 .profile-picture img {
   max-height: 300px;
-  /*float:right;*/
 }
 
-
-
+/* SKILLS SECTION */
 .computer-languages{
   display: inline;
 }
@@ -111,36 +63,13 @@ text-align: center;
   height: 150px;
 }
 
-.social-logos {
-  height: 40px;
-
-}
-
-.cd-timeline-content {
-  color: black;
-}
-
-.cd-timeline-content p {
-  font-size: 1.25em;
-}
-
-.section-heading {
-  margin-top: 10em;
-  margin-bottom: 5em;
-}
-
-.bg-white {
-  background-color: white;
-}
-
+/* EXPERIENCE SECTION */
+/* EDUCATION SECTION */
+/* PORTFOLIO SECTION */
 #portfolio {
   background-color: lightgrey;
 }
-.projects-heading {
-  margin-top: 10em;
-  margin-bottom: 2em;
-  position: relative;
-}
+
 #portfolio p {
   font-size: 1.5rem;
 }
@@ -157,189 +86,45 @@ text-align: center;
   color: red;
 }
 
-/*COVER CSS*/
-/*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
+/* FOOTER SECTION */
+.footer {
+  margin: 2rem 0;
 }
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+.social-logos {
+  height: 40px;
 }
 
-
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #333;
-}
-body {
-  color: #fff;
-  text-align: center;
+.social-media a {
+  margin: 0 1.5rem;
+  padding: 0 1.5rem;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
+/* SECTION AND PAGE FIXES */
+.fullpage {
+  height: 100vh;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 30px;
+.section-heading {
+  margin-top: 10em;
+  margin-bottom: 5em;
 }
 
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+.bg-white {
+  background-color: white;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
+/* TIMELINE FIXES */
+.cd-timeline-content {
+  color: black;
 }
 
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
-}
-
-/* CSS for typed.js blinking cursor */
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+.cd-timeline-content p {
+  font-size: 1.25em;
 }
