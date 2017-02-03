@@ -33,7 +33,7 @@ body {
 
 /* HOME SECTION */
 .name-banner {
-  margin: 0 2rem;
+  margin: 0 25%;
   padding-top: 15px;
   padding-bottom: 15px;
   border: solid 2px white;
@@ -67,7 +67,7 @@ body {
 /* EDUCATION SECTION */
 /* PORTFOLIO SECTION */
 #portfolio {
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
 }
 
 #portfolio p {
